@@ -15,7 +15,6 @@
         android:text="Aplicativo Escolar"
         android:textColor="#000"
         android:textSize="30sp"
-
         />
 
 </LinearLayout>
