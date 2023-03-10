@@ -4,25 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".SplashActivity">
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:scaleType="centerInside"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Escolinha da Alegria"
         android:textColor="#000"
-        android:textStyle="bold"
         android:textSize="20sp"
-        android:layout_gravity="center"
-        />
+        android:textStyle="bold" />
 
 
 </LinearLayout>
